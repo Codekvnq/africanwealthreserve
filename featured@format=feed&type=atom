@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Featured</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://asargold.com"/>
+	<id>https://asargold.com/featured</id>
+	<updated>2025-01-08T02:58:36+00:00</updated>
+	<author>
+		<name>AsarGold</name>
+	</author>
+		<link rel="self" type="application/atom+xml" href="https://asargold.com/featured?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Why Asar Gold</title>
+		<link rel="alternate" type="text/html" href="https://asargold.com/featured/185-strategy-planning"/>
+		<published>2016-02-03T18:55:24+00:00</published>
+		<updated>2016-02-03T18:55:24+00:00</updated>
+		<id>https://asargold.com/featured/185-strategy-planning</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;div style=&quot;text-align: justify;&quot;&gt;Asar Gold is a Ghana focused gold and commodity trading Company headquartered in Accra. Ghana is Africa’s number two gold producer and ninth in the World, and hosts numerous +10 million ounce gold deposits, including Obuasi, Tarkwa, and Ahafo. &lt;br /&gt;&lt;br /&gt;Some of the world’s leading gold producers are active here including Newmont, AngloGold Ashanti, Goldfields and Kinross. The new Asar Gold (former Asare Mining) is now in production at over 100,000 Oz per year&lt;/div&gt;
+</summary>
+		<content type="html">&lt;div style=&quot;text-align: justify;&quot;&gt;Asar Gold is a Ghana focused gold and commodity trading Company headquartered in Accra. Ghana is Africa’s number two gold producer and ninth in the World, and hosts numerous +10 million ounce gold deposits, including Obuasi, Tarkwa, and Ahafo. &lt;br /&gt;&lt;br /&gt;Some of the world’s leading gold producers are active here including Newmont, AngloGold Ashanti, Goldfields and Kinross. The new Asar Gold (former Asare Mining) is now in production at over 100,000 Oz per year&lt;/div&gt;
+</content>
+		<category term="Frontpage" />
+	</entry>
+</feed>
