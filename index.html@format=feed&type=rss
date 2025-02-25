@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Asar Gold Company Limited</title>
+		<description><![CDATA[]]></description>
+		<link>https://asargold.com/</link>
+		<lastBuildDate>Wed, 08 Jan 2025 02:52:48 +0000</lastBuildDate>
+				<atom:link rel="self" type="application/rss+xml" href="https://asargold.com/?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>Why Asar Gold</title>
+			<link>https://asargold.com/featured/185-strategy-planning</link>
+			<guid isPermaLink="true">https://asargold.com/featured/185-strategy-planning</guid>
+			<description><![CDATA[<div class="feed-description"><div style="text-align: justify;">Asar Gold is a Ghana focused gold and commodity trading Company headquartered in Accra. Ghana is Africa’s number two gold producer and ninth in the World, and hosts numerous +10 million ounce gold deposits, including Obuasi, Tarkwa, and Ahafo. <br /><br />Some of the world’s leading gold producers are active here including Newmont, AngloGold Ashanti, Goldfields and Kinross. The new Asar Gold (former Asare Mining) is now in production at over 100,000 Oz per year</div>
+</div>]]></description>
+			<category>Featured</category>
+			<category>Frontpage</category>
+			<pubDate>Wed, 03 Feb 2016 18:55:24 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

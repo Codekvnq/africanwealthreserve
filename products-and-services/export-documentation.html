@@ -1,0 +1,1123 @@
+<!DOCTYPE HTML>
+<html xml:lang="en-GB" lang="en-GB"
+>
+<head>
+<base href="" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Super User" />
+	<title>Export &amp; Documentation</title>
+	<link href="../templates/business_line/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="../media/system/css/calendar-jos.css@dbde56d47cd9c2bda0661458d4155612.css" rel="stylesheet" title="Green" media="all" type="text/css" />
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"b8d9a38d22ed15a5b599780a2bfa5c1e","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
+	<script src="../media/jui/js/jquery.min.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/jui/js/jquery-noconflict.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/jui/js/jquery-migrate.min.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/caption.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/jui/js/bootstrap.min.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/jui/js/jquery.ui.core.min.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/jui/js/jquery.ui.sortable.min.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../templates/business_line/js/jquery/jquery-ui-addons.js" type="text/javascript"></script>
+	<script src="../media/system/js/core.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script><![endif]-->
+	<script src="../media/system/js/keepalive.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/mootools-core.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/mootools-more.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/punycode.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/validate.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/calendar.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="../media/system/js/calendar-setup.js@dbde56d47cd9c2bda0661458d4155612" type="text/javascript"></script>
+	<script src="https://asargold.com/modules/mod_s5_live_search/js/s5_ls_fade.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(function($) {
+			 $('.hasTip').each(function() {
+				var title = $(this).attr('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					var mtelement = document.id(this);
+					mtelement.store('tip:title', parts[0]);
+					mtelement.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($('.hasTip').get(), {"maxTitleChars": 50,"fixed": false});
+		});
+Calendar._DN = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]; Calendar._SDN = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun"]; Calendar._FD = 0; Calendar._MN = ["January","February","March","April","May","June","July","August","September","October","November","December"]; Calendar._SMN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; Calendar._TT = {"INFO":"About the Calendar","ABOUT":"DHTML Date\/Time Selector\n(c) dynarch.com 20022005 \/ Author: Mihai Bazon\nFor latest version visit: http:\/\/www.dynarch.com\/projects\/calendar\/\nDistributed under GNU LGPL.  See http:\/\/gnu.org\/licenses\/lgpl.html for details.\n\nDate selection:\n- Use the \u00ab and \u00bb buttons to select year\n- Use the < and > buttons to select month\n- Hold mouse button on any of the buttons above for faster selection.","ABOUT_TIME":"\n\nTime selection:\n Click on any of the time parts to increase it\n or Shiftclick to decrease it\n or click and drag for faster selection.","PREV_YEAR":"Select to move to the previous year. Select and hold for a list of years.","PREV_MONTH":"Select to move to the previous month. Select and hold for a list of the months.","GO_TODAY":"Go to today","NEXT_MONTH":"Select to move to the next month. Select and hold for a list of the months.","SEL_DATE":"Select a date.","DRAG_TO_MOVE":"Drag to move.","PART_TODAY":" Today ","DAY_FIRST":"Display %s first","WEEKEND":"0,6","CLOSE":"Close","TODAY":"Today","TIME_PART":"(Shift-)Select or Drag to change the value.","DEF_DATE_FORMAT":"%Y%m%d","TT_DATE_FORMAT":"%a, %b %e","WK":"wk","TIME":"Time:"};
+	</script>
+	<style type="text/css">.s5boxhidden{display:none;} </style>
+	<script type="text/javascript" >var s5_boxeffect = "elastic";</script>
+	<link rel="stylesheet" href="https://asargold.com/modules/mod_s5_box/css/magic.css" type="text/css" />
+	<script src="https://asargold.com/modules/mod_s5_box/js/jquery.no.conflict.js" type="text/javascript"></script>
+	<script src="https://asargold.com/modules/mod_s5_box/js/s5box-css.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://asargold.com/modules/mod_s5_box/css/s5box.css" type="text/css" />
+	<style type="text/css">
+.magictime {	-webkit-animation-duration: 400ms;	animation-duration: 400ms;}
+#cboxOverlay {	-webkit-transition: opacity 400ms ease-in;	-moz-transition: opacity 400ms ease-in;	-o-transition: opacity 400msease-in;	transition: opacity 400ms ease-in;}
+#colorbox.s5-box-effect {width:480px;}	
+</style>
+	<style type="text/css">
+	#colorbox {		-webkit-transition: all 400ms ease-in;		-moz-transition: all 400ms ease-in;		-o-transition: all 400ms ease-in;		transition: all 400ms ease-in;	}	</style>
+	<link rel="stylesheet" href="https://asargold.com/modules/mod_s5_register/css/s5_register.css" type="text/css" />
+
+
+
+			<meta name="viewport" content="initial-scale=1.0" />
+	
+		<link href="../images/so/favicon.png" rel="shortcut icon" type="image/x-icon" />
+	
+<script type="text/javascript">
+	if(jQuery().jquery=='1.11.0') { jQuery.easing['easeOutExpo'] = jQuery.easing['easeOutCirc'] };
+</script>
+
+	<link href="../templates/business_line/css/bootstrap/bootstrap-default-min.css" rel="stylesheet" type="text/css" />
+	<link href="../templates/business_line/css/bootstrap/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+		
+	<link rel="stylesheet" href="../templates/business_line/css/font-awesome/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="../templates/business_line/css/ionicons/css/ionicons.min.css">
+
+<!-- Css and js addons for vertex features -->	
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+<style type="text/css">  #s5_responsive_mobile_top_bar { position:fixed !important; } /* MAX IMAGE WIDTH */img {  height:auto !important;   max-width:100% !important; -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box !important; /* Firefox, other Gecko */ box-sizing: border-box !important; /* Opera/IE 8+ */  }#map_canvas img, .gm-style img { max-width:none !important; }.full_width { width:100% !important; -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box !important; /* Firefox, other Gecko */ box-sizing: border-box !important; /* Opera/IE 8+ */ }.S5_submenu_itemTablet{ background:none !important; } #s5_right_wrap, #s5_left_wrap, #s5_right_inset_wrap, #s5_left_inset_wrap, #s5_right_top_wrap, #s5_left_top_wrap, #s5_right_bottom_wrap, #s5_left_bottom_wrap { width:100% !important; }  #s5_right_wrap { width:0% !important; } #s5_right_inset_wrap { width:100% !important; }   #s5_right_column_wrap { width:18% !important; margin-left:-18% !important; } #s5_left_column_wrap { width:0% !important; } #s5_center_column_wrap_inner { margin-right:36% !important; margin-left:0% !important; }  #s5_responsive_mobile_drop_down_wrap input { width:96% !important; } #s5_responsive_mobile_drop_down_search input { width:100% !important; }  @media screen and (max-width: 1100px){ body { height:100% !important; position:relative !important;  } #s5_responsive_menu_button { display:block !important; }  #s5_responsive_scroll_arrow, #s5_responsive_scroll_arrow a { display:block !important; }  }  @media screen and (max-width: 970px){ #subMenusContainer .S5_subtext { width:85%; } }   #s5_responsive_mobile_sidebar { background:#414141; background: -moz-linear-gradient(top, #414141 0%, #414141 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#414141), color-stop(100%,#414141)); background: -webkit-linear-gradient(top, #414141 0%,#414141 100%); background: -o-linear-gradient(top, #414141 0%,#414141 100%); background: -ms-linear-gradient(top, #414141 0%,#414141 100%); background: linear-gradient(top, #414141 0%,#414141 100%); font-family: Open Sans !important; } #s5_responsive_mobile_sidebar a, #s5_responsive_mobile_search, #s5_responsive_mobile_sidebar_login_register_wrap, #s5_responsive_mobile_sidebar_menu_wrap, .module_round_box-sidebar, .module_round_box-sidebar .s5_mod_h3, .module_round_box-sidebar .s5_h3_first, .module_round_box-sidebar .s5_h3_last, #s5_responsive_mobile_sidebar_menu_wrap h3 { color:#FFFFFF !important; font-family: Open Sans !important; } .s5_responsive_mobile_sidebar_inactive .s5_responsive_mobile_sidebar_title_wrap:hover, #s5_responsive_mobile_sidebar_title_wrap_login_open, #s5_responsive_mobile_sidebar_title_wrap_register_open, #s5_responsive_mobile_sidebar_search_wrap_inner1, #s5_responsive_mobile_sidebar .first_level_li:hover { background:#303030; cursor:pointer; font-family: Open Sans !important; } .s5_mobile_sidebar_h3_open, #s5_responsive_mobile_sidebar_menu_wrap h3:hover { background:#303030; cursor:pointer; } .s5_mobile_sidebar_h3_open span, #s5_responsive_mobile_sidebar_title_wrap_register_open, #s5_responsive_mobile_sidebar_title_wrap_login_open, #s5_responsive_mobile_sidebar a.s5_mobile_sidebar_active, #s5_responsive_mobile_sidebar .s5_mobile_sidebar_h3_open a { color:#1EA0FB !important; } #s5_responsive_mobile_sidebar_menu_wrap div, #s5_responsive_mobile_sidebar_login_bottom, #s5_responsive_mobile_sidebar_register_bottom { background:#2A2A2A; } #s5_responsive_mobile_sidebar_search_wrap, #s5_responsive_mobile_sidebar_login_register_wrap, #s5_responsive_mobile_sidebar_menu_wrap { border-bottom:solid 1px #555555; font-family: Open Sans !important; } #s5_pos_sidebar_top, #s5_pos_sidebar_bottom { border-bottom:solid 1px #555555; } #s5_responsive_mobile_sidebar_login_bottom #modlgn-username, #s5_responsive_mobile_sidebar_login_bottom #modlgn-passwd, #s5_responsive_mobile_sidebar_register_bottom input { background:#FFFFFF; color:#666666; border:solid 1px #FFFFFF; font-family: Open Sans !important; }  #s5_responsive_mobile_bottom_bar, #s5_responsive_mobile_top_bar { background:#171717; background: -moz-linear-gradient(top, #171717 0%, #171717 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#171717), color-stop(100%,#171717)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #171717 0%,#171717 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #171717 0%,#171717 100%); /* Opera11.10+ */ background: -ms-linear-gradient(top, #171717 0%,#171717 100%); /* IE10+ */ background: linear-gradient(top, #171717 0%,#171717 100%); /* W3C */   font-family: Open Sans !important; } .s5_responsive_mobile_drop_down_inner, .s5_responsive_mobile_drop_down_inner input, .s5_responsive_mobile_drop_down_inner button, .s5_responsive_mobile_drop_down_inner .button, #s5_responsive_mobile_drop_down_search .validate { font-family: Open Sans !important; } .s5_responsive_mobile_drop_down_inner button:hover, .s5_responsive_mobile_drop_down_inner .button:hover { background:#171717 !important; } #s5_responsive_mobile_drop_down_menu, #s5_responsive_mobile_drop_down_menu a, #s5_responsive_mobile_drop_down_login a { font-family: Open Sans !important; color:#FFFFFF !important; } #s5_responsive_mobile_bar_active, #s5_responsive_mobile_drop_down_menu .current a, .s5_responsive_mobile_drop_down_inner .s5_mod_h3, .s5_responsive_mobile_drop_down_inner .s5_h3_first { color:#1EA0FB !important; } .s5_responsive_mobile_drop_down_inner button, .s5_responsive_mobile_drop_down_inner .button { background:#1EA0FB !important; } #s5_responsive_mobile_drop_down_menu .active ul li, #s5_responsive_mobile_drop_down_menu .current ul li a, #s5_responsive_switch_mobile a, #s5_responsive_switch_desktop a, #s5_responsive_mobile_drop_down_wrap { color:#FFFFFF !important; } #s5_responsive_mobile_toggle_click_menu span { border-right:solid 1px #171717; } #s5_responsive_mobile_toggle_click_menu { border-right:solid 1px #171717; } #s5_responsive_mobile_toggle_click_search span, #s5_responsive_mobile_toggle_click_register span, #s5_responsive_mobile_toggle_click_login span, #s5_responsive_mobile_scroll a { border-left:solid 1px #171717; } #s5_responsive_mobile_toggle_click_search, #s5_responsive_mobile_toggle_click_register, #s5_responsive_mobile_toggle_click_login, #s5_responsive_mobile_scroll { border-left:solid 1px #171717; } .s5_responsive_mobile_open, .s5_responsive_mobile_closed:hover, #s5_responsive_mobile_scroll:hover { background:#171717; } #s5_responsive_mobile_drop_down_menu .s5_responsive_mobile_drop_down_inner, #s5_responsive_mobile_drop_down_register .s5_responsive_mobile_drop_down_inner, #s5_responsive_mobile_drop_down_login .s5_responsive_mobile_drop_down_inner, #s5_responsive_mobile_drop_down_search .s5_responsive_mobile_drop_down_inner { background:#171717; } .s5_wrap { max-width:1424px !important; }      @media screen and (max-width: 900px){ #s5_columns_wrap_inner { width:100% !important; } #s5_center_column_wrap { width:100% !important; left:100% !important; } #s5_left_column_wrap { left:0% !important; } #s5_left_top_wrap, #s5_left_column_wrap, #s5_left_inset_wrap, #s5_left_wrap, #s5_left_bottom_wrap, #s5_right_top_wrap, #s5_right_column_wrap, #s5_right_inset_wrap, #s5_right_wrap, #s5_right_bottom_wrap { width:100% !important; } #s5_center_column_wrap_inner { margin:0px !important; } #s5_left_column_wrap { margin-right:0px !important; } #s5_right_column_wrap { margin-left:0px !important; } .items-row .item { width:100% !important; padding-left:0px !important; padding-right:0px !important; margin-right:0px !important; margin-left:0px !important; } }               @media screen and (min-width:580px) and (max-width: 950px){  #s5_bottom_row2 .s5_float_left { width:100% !important; } }           @media screen and (min-width:580px) and (max-width: 950px){  #s5_bottom_row3 .s5_float_left { float:left !important; width:50% !important; } }         #s5_bottom_row1_area1 {   background-color:#090909 !important; background-image:url(../images/bottom_row2.jpg) !important; background-size: cover; background-attachment: fixed !important; background-repeat:no-repeat !important; background-position:;  }       .subMenusContainer, .s5_drop_down_container { position: fixed !important; } #s5_menu_wrap.s5_wrap {    height:70px;  position: fixed;  top:0px !important;  z-index:2;   margin-top:0px !important; }   #s5_menu_wrap { -webkit-transition: top 500ms ease-out; -moz-transition: top 500ms ease-out; -o-transition:top 500ms ease-out; transition: top 500ms ease-out; } #s5_menu_wrap.s5_wrap_fmfullwidth, #s5_menu_wrap.s5_wrap { top:0px; }  #s5_menu_wrap.s5_wrap, #s5_menu_wrap.s5_wrap_fmfullwidth {    }    </style><script type="text/javascript">  jQuery(document).ready( function() {  if (window.addEventListener) { window.addEventListener('scroll', s5_fm_check_scroll_height, false); } else if (window.attachEvent) { window.attachEvent('onscroll', s5_fm_check_scroll_height); } window.setTimeout(s5_fm_check_scroll_height,100); } ); var s5_menu_wrap_height = 0; var s5_menu_wrap_parent_height = 0; var s5_menu_wrap_parent_parent_height = 0; var s5_menu_wrap_run = "no"; function s5_fm_check_scroll_height() { if (s5_menu_wrap_run == "no") { s5_menu_wrap_height = document.getElementById("s5_menu_wrap").offsetHeight; s5_menu_wrap_parent_height = document.getElementById("s5_menu_wrap").parentNode.offsetHeight; s5_menu_wrap_parent_parent_height = document.getElementById("s5_menu_wrap").parentNode.parentNode.offsetHeight; s5_menu_wrap_run = "yes"; }    var s5_fmenuheight_new = 70;  if (window.pageYOffset >= 200 - s5_fmenuheight_new){ document.getElementById("s5_menu_wrap").style.top = "0px";} else {document.getElementById("s5_menu_wrap").style.top = "-500px";}  if (window.pageYOffset >= 200 && window.innerWidth > 750){ document.getElementById("s5_floating_menu_spacer").style.height = s5_menu_wrap_height + "px"; document.getElementById("s5_menu_wrap").className = 's5_wrap notfullwidth'; document.getElementById("subMenusContainer").className = 'subMenusContainer'; if (s5_menu_wrap_parent_height >= s5_menu_wrap_height - 20 && s5_menu_wrap_parent_parent_height >= s5_menu_wrap_height - 20 && document.getElementById("s5_menu_wrap").parentNode.style.position != "absolute" && document.getElementById("s5_menu_wrap").parentNode.parentNode.style.position != "absolute") { document.getElementById("s5_floating_menu_spacer").style.display = "block"; } } else { document.getElementById("s5_menu_wrap").className = ''; document.getElementById("subMenusContainer").className = ''; document.getElementById("s5_floating_menu_spacer").style.display = "none"; } }   </script>
+<script type="text/javascript" src="../templates/business_line/js/core/s5_flex_menu-min.js"></script>
+<link rel="stylesheet" href="../templates/business_line/css/s5_flex_menu.css" type="text/css" />
+<link rel="stylesheet" href="../templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="../templates/system/css/general.css" type="text/css" />
+
+
+<link href="https://asargold.com/templates/business_line/css/template.css" rel="stylesheet" type="text/css" />
+
+
+
+<link href="../templates/business_line/css/editor.css" rel="stylesheet" type="text/css" />
+
+<link href="../templates/business_line/css/thirdparty.css" rel="stylesheet" type="text/css" />
+
+
+
+<link href="../templates/business_line/css/multibox/multibox.css" rel="stylesheet" type="text/css" />
+<link href="../templates/business_line/css/multibox/ajax.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../templates/business_line/js/multibox/overlay.js"></script>
+<script type="text/javascript" src="../templates/business_line/js/multibox/multibox.js"></script>
+
+<script type="text/javascript" src="../templates/business_line/js/core/s5_font_adjuster-min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="../templates/business_line/css/core/s5_responsive_bars-min.css" />
+	<link href="../templates/business_line/css/core/s5_responsive_hide_classes-min.css" rel="stylesheet" type="text/css" />
+	<style type="text/css"> @media screen and (min-width: 650px){.s5_responsive_mobile_sidebar_show_ltr {width:400px !important;}.s5_responsive_mobile_sidebar_body_wrap_show_ltr {margin-left:400px !important;}.s5_responsive_mobile_sidebar_show_rtl {width:400px !important;}.s5_responsive_mobile_sidebar_body_wrap_show_rtl {margin-right:400px !important;}#s5_responsive_mobile_sidebar_inner1 {width:400px !important;}}</style>
+
+
+	<link rel="stylesheet" type="text/css" href="../templates/business_line/css/s5_responsive.css" />
+	
+	
+
+<link rel="stylesheet" type="text/css" href="../templates/business_line/css/custom.css" />	<script type="text/javascript">
+	//<![CDATA[
+				        jQuery(document).ready( function() {
+		            var myMenu = new MenuMatic({
+				tabletWidth:1400,
+                effect:"fade",
+                duration:0,
+                physics: 'easeOutCirc',
+                hideDelay:250,
+                orientation:"vertical",
+                tweakInitial:{x:0, y:0},
+								fullWidth: function(){
+					if(window.innerWidth<1200) return "auto";
+						return document.getElementById("s5_menu_wrap").offsetWidth+"px";
+				},
+				                                     	            direction:{    x: 'right',    y: 'down' },
+				                opacity:100            });
+        });		
+			//]]>	
+    </script>    
+
+<!-- Info Slide Script - Called in header so css validates -->	
+
+	
+<script type="text/javascript" src="../templates/business_line/js/core/scrollReveal-min.js"></script>
+	
+
+<!-- Resize column function -->	
+
+<!-- File compression. Needs to be called last on this file -->	
+<!-- The excluded files, listed below the compressed php files, are excluded because their calls vary per device or per browser. Included compression files are only ones that have no conditions and are included on all devices and browsers. Otherwise unwanted css will compile in the compressed files. -->	
+
+<!-- Additional scripts to load inside of the header -->
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open%20Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic" />
+
+<style type="text/css"> 
+.highlight_font, .slide_title, #s5_menu_inner, #subMenusContainer, h1, h2, h3, h4, h5, #s5_top_menu_login_wrap, .learn_about_us_title_sub, .centered_text, .progress_bar, .s5_va_active, .s5_va_inactive, .stats_item, .testimonials_text, .testimonial_details, .large_title_text, .employee_name, employee_title, .steps_boxes_number, .steps_boxes_title, #s5_footer_area2, #s5_bread_lang_wrap, #s5_custom_5_6_wrap, input, button, .btn, select, label, #s5_accordion_menu {
+font-family: Open Sans;
+}
+
+body, .inputbox {font-family: 'Arial',Helvetica,Arial,Sans-Serif ;} 
+
+.btn-link, a, .highlight1, .stats_icon, .bottom_address .address_info i, #s5_responsive_menu_button:hover {
+color:#145894;
+}
+
+#s5_search_wrap:hover, .s5_icon_search_close:hover, #s5_login:hover, #s5_register:hover, #s5_pos_top_menu a:hover, .learn_about_us_text_wrap i, .social_icon:hover, #subMenusContainer li.subParentBtn span:hover a, #subMenusContainer li.subMenuParentBtn span:hover a, #subMenusContainer li.subMenuParentBtn span:hover span.s5_sub_a_span, #s5_accordion_menu #current a {
+color:#986800 !important;
+}
+
+#s5_component_wrap_inner h2 a:hover, #s5_component_wrap_inner h1 a:hover, .highlight2, .employee_name, #s5_bottom_row3_area1 a:hover, #s5_bottom_menu_wrap a:hover, ul.menu li.current a {
+color:#c09001;
+}
+
+a:hover {
+color:#986800;
+}
+
+#s5_nav li.mainMenuParentBtnFocused a, #s5_nav li.active a, #s5_nav li:hover a {
+border-bottom:solid 2px #c09001 !important;
+}
+
+.image_box_image:hover {
+border:solid 6px #c09001 !important;
+}
+
+.readon, .button, button, .s5_ls_readmore, .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-list > .active > a, .nav-list > .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .btn-group.open .btn-primary.dropdown-toggle, .btn-primary, .item-page .dropdown-menu li > a:hover, .blog .dropdown-menu li > a:hover, .item .dropdown-menu li > a:hover, .btn, .pagenav a, .ac-container label:hover, .ac-container2 label:hover, .jdGallery .carousel .carouselInner .active, p.readmore a:hover, .s5_is_css_10 .s5_is_slide_css_plus_circle:hover, .progress_bar3, .s5_tab_show_slide_button_active, .steps_boxes_highlight1, .module_round_box.highlight1 {
+background:#145894 !important;
+}
+
+.readon:hover, .top_boxes_right, .progress_bar2, .steps_boxes_highlight2, p.readmore:hover a, .readon:hover, .button:hover, button:hover, #s5_accordion_menu h3:hover, #s5_accordion_menu h3.s5_am_open, .module_round_box.highlight2, .pagenav a:hover {
+background:#c09001 !important;
+}
+
+.readon_highlight2 {
+background:#b18100 !important;
+}
+
+.readon_highlight2:hover {
+background:#a27200 !important;
+}
+
+.readon_white {
+background:#FFFFFF !important;
+}
+
+.module_round_box.highlight1_border {
+border:solid 4px #145894;
+}
+
+.module_round_box.highlight2_border {
+border:solid 4px #c09001;
+}
+
+.slide_title {
+color:#c09001;
+}
+
+.uppercase, button, .button, .readon, .readmore a, .pagenav a, .btn, #s5_accordion_menu h3, .stats_text, .s5_va_active, .s5_va_inactive, .testimonial_name, #s5_bottom_row3_area1 .s5_mod_h3 {
+text-transform:uppercase;
+}
+
+
+#s5_pos_custom_3, #s5_pos_custom_2 {
+float:none;
+width:auto;
+}
+
+.slideInfoZone .left, .slideInfoZone_unload .left {
+-webkit-transform: scale(1) translate(0px,-32%);
+-moz-transform: scale(1) translate(0px,-32%); 
+-ms-transform: scale(1) translate(0px,-32%);
+-o-transform: scale(1) translate(0px,-32%);
+}
+
+.mainParentBtn a {
+background:none !important;
+}
+#s5_nav li.mainParentBtn .s5_level1_span2 a {
+padding:0px;
+}
+
+#s5_center_column_wrap_inner {
+padding-right:40px;
+}
+@media screen and (max-width: 1100px){
+#s5_center_column_wrap_inner {
+padding-right:20px;
+}
+}
+
+
+#s5_top_area_wrap {
+margin-bottom:0px !important;
+border-bottom:1px solid #e7e6e6;
+}
+
+/* Full Width Menu CSS 
+---------------------------------*/	
+@media screen and (min-width:1200px) {		
+.s5_sub_wrap, .s5_sub_wrap_rtl {
+position:relative !important;
+height:auto !important;
+padding-right:0px !important;
+padding-left:0px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+left:auto !important; 	
+}
+#subMenusContainer .s5_sub_wrap_rtl ul li ul, #subMenusContainer .s5_sub_wrap ul li ul {float:none !important;display: table-cell;}	
+#subMenusContainer ul li {display: table;}
+.s5_sub_wrap, .s5_sub_wrap_rtl  {background-color:#fafafa !important;}		
+#subMenusContainer .s5_sub_wrap_rtl ul li ul, #subMenusContainer .s5_sub_wrap ul li ul {border-right: 1px solid rgba(255, 255, 255, .1);}
+#subMenusContainer .s5_sub_wrap_rtl ul li ul:last-child , #subMenusContainer .s5_sub_wrap ul li ul:last-child  {border-right:none;}	
+
+#subMenusContainer ul ul {padding:15px !important;}
+.subMenusContainer .s5_sub_wrap, .subMenusContainer .s5_sub_wrap_rtl {padding-left: 60px;}	
+.moduletable-menumodule { margin-top: -27px;}
+#subMenusContainer div.s5_sub_wrap ul, #subMenusContainer div.s5_sub_wrap_rtl ul {background:none !important;}
+
+#subMenusContainer div.s5_sub_wrap ul, #subMenusContainer div.s5_sub_wrap_rtl ul, #subMenusContainer div.s5_sub_wrap_lower ul, #subMenusContainer div.s5_sub_wrap_lower_rtl ul {
+-webkit-box-shadow:none !important;
+-moz-box-shadow:none !important;
+box-shadow:none !important;
+}
+}	
+
+@media screen and (max-width: 1100px){
+}
+
+
+/* k2 stuff */
+div.itemHeader h2.itemTitle, div.catItemHeader h3.catItemTitle, h3.userItemTitle a, #comments-form p, #comments-report-form p, #comments-form span, #comments-form .counter, #comments .comment-author, #comments .author-homepage,
+#comments-form p, #comments-form #comments-form-buttons, #comments-form #comments-form-error, #comments-form #comments-form-captcha-holder {font-family: 'Arial',Helvetica,Arial,Sans-Serif ;} 
+	
+.s5_wrap{width:96%;}	
+</style>
+</head>
+
+<body id="s5_body">
+
+<div id="s5_main_body_wrap">
+
+<div id="s5_scrolltotop"></div>
+
+<!-- Top Vertex Calls -->
+<!-- Call mobile sidebar -->
+<div id="s5_responsive_mobile_sidebar" class="s5_responsive_mobile_sidebar_hide_ltr">
+	<div id="s5_responsive_mobile_sidebar_inner1" class="s5_responsive_mobile_sidebar_light">
+<div id="s5_responsive_mobile_sidebar_inner2">
+
+		<div id="s5_responsive_mobile_sidebar_search_wrap">
+	<div id="s5_responsive_mobile_sidebar_search_wrap_inner1">
+	<div id="s5_responsive_mobile_sidebar_search_wrap_inner2">
+		<form method="post" action="../index.html">
+		<input type="text" onfocus="if (this.value=='Search...') this.value='';" onblur="if (this.value=='') this.value='Search...';" value="Search..." id="s5_responsive_mobile_search" name="searchword" />
+		<input type="hidden" value="search" name="task" />
+		<input type="hidden" value="com_search" name="option" />
+		<input type="hidden" value="1" name="Itemid" />
+	</form>
+	</div>
+	</div>
+	</div>
+	<div style="clear:both"></div>
+	
+	
+			
+			<div id="s5_responsive_mobile_sidebar_menu_wrap">
+			
+
+<!--<ul class="menu">-->
+<h3 class=''><span><a   href='../index.html' >Site</a></span></h3><h3 class=''><span><a   href='../about-us1.html' >About us</a></span></h3><h3 class='' onclick='s5_responsive_mobile_sidebar_h3_click(this.id)'><span class='s5_sidebar_deeper'><a  s5_mobile_sidebar_active href='export-documentation.html#' >Products </a></span></h3><div class='s5_responsive_mobile_sidebar_sub'><ul><li><a   href="bullion-trading.html" >Bullion Trading</a></li><li><a   class="s5_mobile_sidebar_active"  href="export-documentation.html" >Export &amp; Documentation</a></li><li><a   href="gold-vault-storage.html" >Gold Vault Storage</a></li></ul></div><h3 class=''><span><a   href='../mds-message.html' >MDs Message</a></span></h3><h3 class=''><span><a   href='../investor-relations.html' >Investor Relations</a></span></h3><h3 class=''><span><a   href='../contact-us.html' >Contact Us</a></span></h3><!--</ul>-->
+		</div>
+	
+	
+</div>
+</div>
+</div>
+<div id="s5_responsive_mobile_sidebar_body_wrap">
+<div id="s5_responsive_mobile_sidebar_body_wrap_inner">
+
+<!-- Call top bar for mobile devices if layout is responsive -->	
+	
+
+	
+
+	<script type="text/javascript">
+		var s5_responsive_trigger = 1100;
+		var s5_responsive_layout = "sidebar";
+		var s5_responsive_layout_direction = "_ltr";
+		var s5_responsive_menu_auto_open = "open";
+	</script>
+	<script type="text/javascript" src="../templates/business_line/js/core/s5_responsive_mobile_bar-min.js"></script>
+
+
+
+<!-- Fixed Tabs -->	
+
+<!-- Drop Down -->	
+
+<!-- Parallax Backgrounds -->
+
+<!-- Floating Menu Spacer -->
+	
+<div id="s5_floating_menu_spacer" style="display:none;width:100%;"></div>
+
+<!-- Body Padding Div Used For Responsive Spacing -->		
+<div id="s5_body_padding">
+
+	<div id="s5_top_area_wrap" class="s5_wrap">
+	<!-- Header -->		
+		<header id="s5_header_area1">	
+		<div id="s5_header_area2">
+		<div id="s5_menu_wrap">	
+			<div id="s5_menu_wrap_inner1">	
+			<div id="s5_menu_wrap_inner2">	
+									<div id="s5_responsive_menu_button" style="display:none" onclick="s5_responsive_mobile_sidebar()"><div class="s5_menuicon ion-android-menu"></div></div>
+													<div id="s5_logo_wrap" class="s5_logo s5_logo_image">
+																				<img alt="logo" src="../images/so/asar-logo2.png" onclick="window.document.location.href='/index.html'" />
+																															<div style="clear:both;"></div>
+					</div>	
+							
+					
+						<nav id="s5_menu_inner">
+							<ul id='s5_nav' class='menu'><li   class=' ' ><span class='s5_level1_span1'><span class='s5_level1_span2'><a href="/index.html"><span onclick='window.document.location.href="/"'>Site</span></a></span></span></li><li   class=' ' ><span class='s5_level1_span1'><span class='s5_level1_span2'><a href="../about-us1.html"><span onclick='window.document.location.href="/about-us1"'>About us</span></a><span class='S5_parent_subtext' onclick='window.document.location.href="/about-us1"'>Learn More About Vertex</span></span></span></li><li   class='active ' ><span class='s5_level1_span1'><span class='s5_level1_span2'><a href="export-documentation.html#"><span onclick='window.document.location.href="#"'>Products </span></a></span></span><ul style='float:left;'><li class=''><span class='S5_submenu_item'><a href="bullion-trading.html"><span class='s5_sub_a_span' onclick='window.document.location.href="/products-and-services/bullion-trading"'>Bullion Trading</span></a></span></li><li class=''><span class='S5_submenu_item'><a href="export-documentation.html"><span class='s5_sub_a_span' onclick='window.document.location.href="/products-and-services/export-documentation"'>Export &amp; Documentation</span></a></span></li><li class=''><span class='S5_submenu_item'><a href="gold-vault-storage.html"><span class='s5_sub_a_span' onclick='window.document.location.href="/products-and-services/gold-vault-storage"'>Gold Vault Storage</span></a></span></li></ul></li><li   class=' ' ><span class='s5_level1_span1'><span class='s5_level1_span2'><a href="../mds-message.html"><span onclick='window.document.location.href="/mds-message"'>MDs Message</span></a></span></span></li><li   class=' ' ><span class='s5_level1_span1'><span class='s5_level1_span2'><a href="../investor-relations.html"><span onclick='window.document.location.href="/investor-relations"'>Investor Relations</span></a></span></span></li><li   class=' ' ><span class='s5_level1_span1'><span class='s5_level1_span2'><a href="../contact-us.html"><span onclick='window.document.location.href="/contact-us"'>Contact Us</span></a></span></span></li></ul>							<div style="clear:both;"></div>
+						</nav>
+													<div onclick="s5_search_open()" id="s5_search_wrap" class="ion-search"></div>
+					<div id="s5_search_overlay" class="s5_search_close">
+						<div class="ion-close s5_icon_search_close" onclick="s5_search_close()"></div>		
+						<div class="s5_wrap">
+							<div id="s5_search_pos_wrap">
+										
+			<div class="module_round_box_outer">
+			
+			<div class="module_round_box ">
+
+				<div class="s5_module_box_1">
+					<div class="s5_module_box_2">
+												<div class="s5_mod_h3_outer">
+							<h3 class="s5_mod_h3">
+																						<span class="s5_h3_first">Search </span><span class="s5_h3_last"> Our Site</span>
+								
+							</h3>
+													</div>
+												<div class="s5_mod_h3_below" style="clear:both"></div>
+												<div class="s5_outer ">
+						
+<link href="https://asargold.com/modules/mod_s5_live_search/css/s5_ls.css" property="stylesheet" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
+<form name="s5_search_form" id="s5_search_form" action="../index.html" method="get">
+<div class="search">
+		
+			<input name="searchword" id="mod-search-searchword" maxlength="20" class="inputbox" type="text" size="20" value="Search..."  onblur="if(this.value=='') this.value='Search...';" onfocus="if(this.value=='Search...') this.value='';" onkeyup="s5AjaxSearch();" />
+				<div>
+					<div style="background:url(https://asargold.com/modules/mod_s5_live_search/images/loading.gif) no-repeat; display:none; margin-left:185px; margin-top:-28px; height:14px;width:16px" id="loading_img"></div>
+				</div>	</div>
+	<input type="hidden" name="searchphrase" value="any"/>
+	<input type="hidden" name="limit" id="s5_live_search_limit" value="" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="Itemid" value="99999999" />
+	<input type="hidden" name="option" value="com_search" />
+   	</form>
+<div id="s5_ls_outer_wrap" style="margin-top:5px; margin-right:0px; margin-bottom:10px; margin-left:0px; border:solid 1px #9F9E9E; opacity:.0;  display:none; width: 400px;"></div>
+<div id="search_tmpdiv" style="visibility:hidden;display:none;"></div>
+<script type="text/javascript">//<![CDATA[
+	var limit = '5';
+	var ordering = 'newest';
+	var searchPhrase = 'any';
+
+	function closeResultDiv() {
+		var outerWrap = document.getElementById('s5_ls_outer_wrap');
+		outerWrap.innerHTML = '';
+		opacity_s5_ls('s5_ls_outer_wrap', 100, 0, 500);
+		outerWrap.style.display = "none";
+		document.getElementById('search_tmpdiv').innerHTML = "";
+	}
+
+	function openResultDiv() {
+		opacity_s5_ls('s5_ls_outer_wrap', 0, 100, 500);
+		document.getElementById("s5_ls_outer_wrap").style.display = "block";
+		document.getElementById('search_tmpdiv').innerHTML = "";
+	}
+
+
+	function s5AjaxSearch() {
+		var curtime = new Date();
+		var url = 'index2.php';
+		if(document.getElementById('mod-search-searchword').value == ''){
+			closeResultDiv();
+		}
+		else{
+			var inputTag = document.getElementById('mod-search-searchword');
+			if (inputTag.value.length < 3) {
+				return ;
+			}
+			closeResultDiv();
+			//Show the loading icon
+			var loadingImgTag = document.getElementById('loading_img') ;
+			loadingImgTag.style.display = '';
+			//Build the url
+									var url = 'https://asargold.com/' + 'index.php?option=com_search' ;
+						url =  url + '&view=search';
+			url =  url + '&layout=s5_live_search';
+			url = url + '&searchphrase=' + searchPhrase;
+			url = url + '&ordering=' + ordering;
+			url = url + '&limit=' + limit;
+			url = url + '&searchword=' + document.getElementById('mod-search-searchword').value ;
+			//url = url + '&limit=' + limit;
+			//url = url + '&results_text=' + 'Search Results - Click Here For Full Results';
+			//url = url + '&no_results_text=' + 'No results found';
+			url = url + '&r=' + curtime.getTime();
+			jx.load(url, function (data) {
+					document.getElementById('loading_img').style.display = 'none' ;
+					document.getElementById('search_tmpdiv').innerHTML = data ;
+					document.getElementById('s5_ls_outer_wrap').innerHTML = document.getElementById('s5_search_results').innerHTML;;
+					openResultDiv();
+				}
+			) ;
+		}
+	}
+//]]></script>
+						</div>
+						<div style="clear:both; height:0px"></div>
+					</div>
+				</div>
+
+			</div>
+			
+			</div>
+
+		
+							</div>		
+						</div>
+					</div>
+							</div>
+			</div>
+		</div>
+						</div>
+		</header>
+	<!-- End Header -->	
+		
+				
+				<div style="clear:both;"></div>
+	</div>
+	
+	<!-- Top Row1 -->	
+			<!-- End Top Row1 -->	
+		
+		
+		
+	<!-- Top Row2 -->	
+			<!-- End Top Row2 -->
+	
+	
+	
+	<!-- Top Row3 -->	
+			<!-- End Top Row3 -->	
+		
+		
+	<!-- Above Columns Wrap -->	
+			<!-- End Above Columns Wrap -->	
+		
+	<!-- Center area -->	
+				<section id="s5_center_area1" class="s5_slidesection s5_no_custom_bg">
+		<div id="s5_center_area2" class="s5_no_custom_bg">
+		<div id="s5_center_area_inner" class="s5_wrap">
+		<div id="s5_center_area_inner2">		
+				
+			<!-- Columns wrap, contains left, right and center columns -->	
+			<section id="s5_columns_wrap" class="s5_no_custom_bg">
+			<div id="s5_columns_wrap_inner" class="s5_no_custom_bg">
+				
+				<section id="s5_center_column_wrap">
+				<div id="s5_center_column_wrap_inner" style="margin-left:0px; margin-right:36px;">
+					
+										
+											
+						<section id="s5_component_wrap">
+						<div id="s5_component_wrap_inner">
+						
+																
+														<main>
+								<div id="system-message-container">
+	</div>
+
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+		
+			<div class="page-header">
+					<h2 itemprop="headline">
+				Exportation &amp; Documentation			</h2>
+									</div>
+							
+<div class="icons">
+	
+					<div class="btn-group pull-right">
+				<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton-116" aria-label="User tools"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="icon-cog" aria-hidden="true"></span>
+					<span class="caret" aria-hidden="true"></span>
+				</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton-116">
+											<li class="print-icon"> <a href="export-documentation@tmpl=component&amp;print=1.html" title="Print article < Exportation &amp; Documentation >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Print	</a> </li>
+																<li class="email-icon"> <a href="../component/mailto/index.html@tmpl=component&amp;template=business_line&amp;link=6fbb32e338e0ad8db3de0378b17ae50617f3b69e.html" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=450,menubar=yes,resizable=yes'); return false;" rel="nofollow">			<span class="icon-envelope" aria-hidden="true"></span>
+		Email	</a> </li>
+														</ul>
+			</div>
+		
+	</div>
+			
+		
+	
+	
+		
+								<div itemprop="articleBody">
+		<div style="text-align: justify;">We provide as the main feature of our integral service the exportation of gold under the licence of our shippers to several destinations across the world. The export of gold meets the Government requirement under strict Customs regulation and by the Bank of Ghana requirement. All the gold exports are done through laid down regulations to several world class refineries overseas.<br /><br /></div>
+<div style="text-align: justify;">The process involves the issuance of Assay, invoices, a packing list, documentation for customs clearance and finally Airway bills with Consignee details to the point of destination. As a primary rule all intended gold exports must first submit to the Bank of Ghana regulation by first wiring money for the gold export into Ghana before shipment can be commenced.<br /><br /></div>
+<div style="text-align: justify;">There is absolutely no gold shipment under credit terms, the BOG regulations does not allow for shipment of gold before Payment. NOTE the requirement is stated on the BOG form ‘A’ it is a precondition for export please ask for details and do not pay money to anybody to allow shipment other than the prescribed regulation. <br /><br />African Wealth Reserve have special arrangement to our committed end buyers making it possible to ship to destination refinery before full payment is wired to Ghana. Shipment of gold dust is not allowed, all gold must be smelted into Dore bars to ascertain the purity for invoice value to be placed on customs clearance. The total cost for export is calculated at 5% of export value based on the World Marketing spot price on the day of export.  Please request export charge sheet and invoice</div> 	</div>
+
+	
+							</div>
+
+								<div style="clear:both;height:0px"></div>
+							</main>
+														
+														
+						</div>
+						</section>
+						
+										
+										
+				</div>
+				</section>
+				<!-- Left column -->	
+								<!-- End Left column -->	
+				<!-- Right column -->	
+									<aside id="s5_right_column_wrap" class="s5_float_left" style="width:36px; margin-left:-36px">
+					<div id="s5_right_column_wrap_inner">
+																			<div id="s5_right_inset_wrap" class="s5_float_left" style="width:36px">
+											
+			<div class="module_round_box_outer">
+			
+			<div class="module_round_box ">
+
+				<div class="s5_module_box_1">
+					<div class="s5_module_box_2">
+												<div class="s5_outer ">
+						
+
+<div class="customs5_icon.ion-android-globe"  >
+	<iframe width="302" height="268" style="width: 302px; height: 268px; display: block; border: 0px; overflow: hidden;" scrolling="no" src="https://www.dailyforex.com/forex-widget/widget/22717"></iframe><span style="position: relative; display: block; text-align: center; color: #333333; width: 302px; font-family: Tahoma,sans-serif; font-size: 10px;">Live rates widget is provided by <a style="font-size: 10px;" href="http://www.dailyforex.com" rel="nofollow noopener noreferrer" target="_blank">DailyForex.com</a> - Forex Reviews and News</span></div>
+						</div>
+						<div style="clear:both; height:0px"></div>
+					</div>
+				</div>
+
+			</div>
+			
+			</div>
+
+		
+							</div>
+																								<div style="clear:both;height:0px;"></div>
+					</div>
+					</aside>
+								<!-- End Right column -->	
+			</div>
+			</section>
+			<!-- End columns wrap -->	
+
+			
+		</div>
+		</div>
+		</div>
+		</section>
+			<!-- End Center area -->	
+	
+	
+	<!-- Below Columns Wrap -->	
+			<!-- End Below Columns Wrap -->	
+	
+	<!-- Bottom Row1 -->	
+			<!-- End Bottom Row1 -->	
+		
+		
+	<!-- Bottom Row2 -->	
+			<!-- End Bottom Row2 -->
+	
+		
+			<div id="s5_bread_lang_wrap">
+		<div id="s5_bread_lang_wrap_inner" class="s5_wrap">
+		<div id="s5_bread_lang_wrap_inner2">
+										<div id="fontControls"></div>
+										<div id="s5_breadcrumb_wrap">
+							<div class="moduletable">
+			<div aria-label="breadcrumbs" role="navigation">
+	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+					<li class="active">
+				<span class="divider icon-location"></span>
+			</li>
+		
+						<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="../index.html" class="pathway"><span itemprop="name">African Wealth Reserve</span></a>
+					
+											<span class="divider">
+							+						</span>
+										<meta itemprop="position" content="1">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="export-documentation.html#" class="pathway"><span itemprop="name">Products </span></a>
+					
+											<span class="divider">
+							+						</span>
+										<meta itemprop="position" content="2">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+					<span itemprop="name">
+						Export &amp; Documentation					</span>
+					<meta itemprop="position" content="3">
+				</li>
+				</ul>
+</div>
+		</div>
+	
+				</div>
+				<div style="clear:both;"></div>
+					<div style="clear:both;height:0px;"></div>
+		</div>
+		</div>
+		</div>
+		
+	<!-- Bottom Row3 -->	
+				<section id="s5_bottom_row3_area1" class="s5_wrap s5_slidesection s5_no_custom_bg">	
+		<div id="s5_bottom_row3_area2" class="s5_no_custom_bg">
+		<div id="s5_bottom_row3_area_inner">
+		
+			<div id="s5_bottom_row3_wrap">
+			<div id="s5_bottom_row3">
+			
+						
+			
+			<div id="s5_bottom_row3_inner">
+
+			
+								
+								
+								
+									<div id="s5_pos_bottom_row3_4" class="s5_float_left" style="width:100%">
+									
+			<div class="module_round_box_outer">
+			
+			<div class="module_round_box ">
+
+				<div class="s5_module_box_1">
+					<div class="s5_module_box_2">
+												<div class="s5_outer ">
+						
+
+<div class="custom"  >
+	<div style="text-align: justify;"><span style="color: #ff0000;"><strong>Disclaimer:</strong></span> This has come to our notice that, certain fraudulent people are using our company, African Wealth Reserve Company Ltd to Perpertuate fraud. Please be aware that, The only Authentic Contacts to Reach African Wealth Reserve Company Limited are  +233 546 598 817 +233 546 598 817 or Email <a href="mailto:africanwealthreserve@gmail.com">africanwealthreserve@gmail.com</a></div></div>
+						</div>
+						<div style="clear:both; height:0px"></div>
+					</div>
+				</div>
+
+			</div>
+			
+			</div>
+
+		
+					</div>
+								
+								
+					
+				
+				<div style="clear:both; height:0px"></div>
+
+			</div>
+			</div>
+			</div>
+
+		</div>
+		</div>
+		</section>
+			<!-- End Bottom Row3 -->
+	
+	
+	<!-- Footer Area -->
+		<footer id="s5_footer_area1" class="s5_wrap s5_slidesection">
+		<div id="s5_footer_area2">
+		<div id="s5_footer_area_inner">
+		
+							<div id="s5_footer">
+					<span class="footerc">
+Copyright &copy; 2025.  African Wealth Reserve.
+Designed by Evanny <a href="export-documentation.html#/" title="" target="blank" class="footerc">
+</a>
+</span>
+				</div>
+						
+							<div id="s5_scroll_wrap">
+					<script type="text/javascript">
+/*! Jquery scrollto function */
+!function(o,n){var l=function(){var l,t=n(o.documentElement),e=n(o.body);return t.scrollTop()?t:(l=e.scrollTop(),e.scrollTop(l+1).scrollTop()==l?t:e.scrollTop(l))}();n.fn.smoothScroll=function(o){return o=~~o||400,this.find('a[href*="#s5"]').click(function(t){var e=this.hash,a=n(e);location.pathname.replace(/^\//,"")===this.pathname.replace(/^\//,"")&&location.hostname===this.hostname&&a.length&&(t.preventDefault(),jQuery.fn.fullpage?jQuery.fn.fullpage.scrollPage2(a):l.stop().animate({scrollTop:a.offset().top},o,function(){location.hash=e}))}).end()}}(document,jQuery);
+function initSmoothscroll(){
+	jQuery('html').smoothScroll(700);
+}
+jQuery(document).ready(function(){
+	initSmoothscroll();
+});
+var s5_page_scroll_enabled = 1;
+function s5_page_scroll(obj){ if(jQuery.browser.mozilla) var target = 'html'; else var target='html body'; jQuery(target).stop().animate({scrollTop:jQuery(obj).offset().top},700,function(){location.hash=obj}); } 
+function s5_hide_scroll_to_top_display_none() { if (window.pageYOffset < 300) { document.getElementById("s5_scrolltopvar").style.display = "none"; } }
+function s5_hide_scroll_to_top_fadein_class() { document.getElementById("s5_scrolltopvar").className = "s5_scrolltop_fadein"; }
+function s5_hide_scroll_to_top() {
+	if (window.pageYOffset >= 300) {document.getElementById("s5_scrolltopvar").style.display = "block";
+		document.getElementById("s5_scrolltopvar").style.visibility = "visible";
+		window.setTimeout(s5_hide_scroll_to_top_fadein_class,300);}
+	else {document.getElementById("s5_scrolltopvar").className = "s5_scrolltop_fadeout";window.setTimeout(s5_hide_scroll_to_top_display_none,300);}}
+jQuery(document).ready( function() {s5_hide_scroll_to_top();});
+jQuery(window).resize(s5_hide_scroll_to_top);
+if(window.addEventListener) {
+	window.addEventListener('scroll', s5_hide_scroll_to_top, false);   
+}
+else if (window.attachEvent) {
+	window.attachEvent('onscroll', s5_hide_scroll_to_top); 
+}
+</script>
+<div id="s5_scrolltopvar" class="s5_scrolltop_fadeout" style="visibility:hidden">
+<a href="export-documentation.html#s5_scrolltotop" id="s5_scrolltop_a" class="s5_scrolltotop"></a>
+</div>
+
+
+	
+                        
+				</div>
+						
+							<div id="s5_responsive_scroll_arrow" style="display:none">
+					<a href="export-documentation.html#s5_scrolltotop" class="s5_scrolltotop"></a>
+				</div>
+			
+			
+							<div id="s5_bottom_menu_wrap">
+							<div class="moduletable-s5_box">
+			<script type="text/javascript" src="https://asargold.com/modules/mod_s5_box/js/s5_box_hide_div.js"></script><script type="text/javascript">
+var s5_box_speed = 400</script>
+
+
+
+
+
+<script type="text/javascript">
+var s5box_login_innerhtml = "";
+var s5box_register_innerhtml = "";
+var s5box_one_innerhtml = "";
+var s5box_two_innerhtml = "";
+var s5box_three_innerhtml = "";
+var s5box_four_innerhtml = "";
+var s5box_five_innerhtml = "";
+var s5box_six_innerhtml = "";
+var s5box_seven_innerhtml = "";
+var s5box_eight_innerhtml = "";
+var s5box_nine_innerhtml = "";
+var s5box_ten_innerhtml = "";
+jQuery(document).ready(function() {
+			
+		jQuery('.cboxClose').click(function() {	jQuery('#colorbox').removeClass('magictime swashIn');	});
+		jQuery('#cboxOverlay').click(function() { jQuery('#colorbox').removeClass('magictime swashIn');	});
+		
+				jQuery('.s5box_login').click(function() {	
+			if (s5box_login_innerhtml == "") {
+				s5box_login_innerhtml = document.getElementById("s5box_login").innerHTML;
+				document.getElementById("s5box_login").innerHTML = "";
+			}
+			jQuery('#colorbox').addClass('magictime swashIn');				document.getElementById("colorbox").style.width = '480px';						
+				document.getElementById("cboxContent").style.width = '480px'; 			document.getElementById("cboxLoadedContent").innerHTML = '<div id="s5box_login">' + s5box_login_innerhtml + '</div>';	
+			document.getElementById("colorbox").style.height = jQuery('#cboxLoadedContent').outerHeight() + "px";
+		});		
+					
+		jQuery('.s5box_register').click(function() {
+			if (s5box_register_innerhtml == "") {
+				s5box_register_innerhtml = document.getElementById("s5box_register").innerHTML;
+				document.getElementById("s5box_register").innerHTML = "";
+			}
+			jQuery('#colorbox').addClass('magictime swashIn');				document.getElementById("colorbox").style.width = '600px';	
+				document.getElementById("cboxContent").style.width = '600px'; 			document.getElementById("cboxLoadedContent").innerHTML = '<div id="s5box_register">' + s5box_register_innerhtml + '</div>';	
+			document.getElementById("colorbox").style.height = jQuery('#cboxLoadedContent').outerHeight() + "px";
+		});	
+													
+			
+			
+					
+					
+				
+});
+</script>
+
+
+<div class="s5boxhidden"><div id="s5box_login">
+			
+			<div class="module_round_box_outer">
+			
+			<div class="module_round_box ">
+
+				<div class="s5_module_box_1">
+					<div class="s5_module_box_2">
+												<div class="s5_mod_h3_outer">
+							<h3 class="s5_mod_h3">
+																						<span class="s5_h3_first">Login </span><span class="s5_h3_last"></span>
+								
+							</h3>
+													</div>
+												<div class="s5_mod_h3_below" style="clear:both"></div>
+												<div class="s5_outer ">
+						<form action="export-documentation.html" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+									<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-user hasTooltip" title="Username"></span>
+							<label for="modlgn-username" class="element-invisible">Username</label>
+						</span>
+						<input id="modlgn-username" type="text" name="username" class="input-small" tabindex="0" size="18" placeholder="Username" />
+					</div>
+							</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+									<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-lock hasTooltip" title="Password">
+							</span>
+								<label for="modlgn-passwd" class="element-invisible">Password							</label>
+						</span>
+						<input id="modlgn-passwd" type="password" name="password" class="input-small" tabindex="0" size="18" placeholder="Password" />
+					</div>
+							</div>
+		</div>
+						<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">Remember Me</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="0" name="Submit" class="btn btn-primary login-button">Log in</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+							<li>
+					<a href="../component/users/index.html@view=remind&amp;Itemid=101.html">
+					Forgot your username?</a>
+				</li>
+				<li>
+					<a href="../component/users/index.html@view=reset&amp;Itemid=101.html">
+					Forgot your password?</a>
+				</li>
+			</ul>
+		<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aHR0cHM6Ly9hc2FyZ29sZC5jb20vcHJvZHVjdHMtYW5kLXNlcnZpY2VzL2V4cG9ydC1kb2N1bWVudGF0aW9u" />
+		<input type="hidden" name="b8d9a38d22ed15a5b599780a2bfa5c1e" value="1" />	</div>
+	</form>
+						</div>
+						<div style="clear:both; height:0px"></div>
+					</div>
+				</div>
+
+			</div>
+			
+			</div>
+
+		</div></div>  
+<div class="s5boxhidden"><div id="s5box_register">
+			
+			<div class="module_round_box_outer">
+			
+			<div class="module_round_box ">
+
+				<div class="s5_module_box_1">
+					<div class="s5_module_box_2">
+												<div class="s5_mod_h3_outer">
+							<h3 class="s5_mod_h3">
+																						<span class="s5_h3_first">Register </span><span class="s5_h3_last"></span>
+								
+							</h3>
+													</div>
+												<div class="s5_mod_h3_below" style="clear:both"></div>
+												<div class="s5_outer ">
+						You need to enable user registration from User Manager/Options in the backend of Joomla before this module will activate.						</div>
+						<div style="clear:both; height:0px"></div>
+					</div>
+				</div>
+
+			</div>
+			
+			</div>
+
+		</div></div>
+	
+	
+		</div>
+	
+				</div>	
+						<div style="clear:both; height:0px"></div>
+			
+		</div>
+		</div>
+		</footer>
+	<!-- End Footer Area -->
+	
+	
+	
+	<!-- Bottom Vertex Calls -->
+	<!-- Page scroll, tooltips, multibox -->	
+		<!-- Start compression if enabled -->	
+		
+
+		
+	
+	<script type="text/javascript">
+		var s5_multibox_enabled = 1;
+		jQuery(document).ready(function(){
+			jQuery('.s5mb').each(function(i,z){if(!z.getAttribute('rel'))z.setAttribute('rel','[me]');});
+		}(jQuery));
+		var s5mbox = {};
+				        jQuery(document).ready(function($){
+            initMultibox('.s5mb');
+        });
+		
+			function initMultibox(mbClass){
+		window.s5mbox = new multiBox({
+			mbClass: mbClass,/*class you need to add links that you want to trigger multiBox with (remember and update CSS files)*/
+			container: jQuery(document.body),/*where to inject multiBox*/
+			path: 'https://asargold.com/templates/business_line/js/multibox/',/*path to mp3player and flvplayer etc*/
+			useOverlay: true,/*detect overlay setting*/
+			maxSize: {w:600, h:400},/*max dimensions (width,height) - set to null to disable resizing*/
+			movieSize: {w:400, h:300},
+			addDownload: false,/*do you want the files to be downloadable?*/
+			descClassName: 's5_multibox',/*the class name of the description divs*/
+			pathToDownloadScript: 'https://asargold.com/templates/business_line/js/multibox/forceDownload.asp',/*if above is true, specify path to download script (classicASP and ASP.NET versions included)*/
+			addRollover: false,/*add rollover fade to each multibox link*/
+			addOverlayIcon: false,/*adds overlay icons to images within multibox links*/
+			addChain: false,/*cycle through all images fading them out then in*/
+			recalcTop: true,/*subtract the height of controls panel from top position*/
+			addTips: false,/*adds MooTools built in 'Tips' class to each element (see: http://mootools.net/docs/Plugins/Tips)*/
+			autoOpen: 0/*to auto open a multiBox element on page load change to (1, 2, or 3 etc)*/
+		});	}
+		<!--}(jQuery));-->
+				Eventx.onResizend(function(){		
+			s5mbox.resize(); 
+		});
+			</script>
+
+
+
+
+
+
+
+	
+<!-- Additional scripts to load just before closing body tag -->
+	
+<!-- Info Slide script - JS and CSS called in header -->
+		
+<!-- Scroll Reavel script - JS called in header -->
+		
+		<script type='text/javascript'>
+		jQuery(document).ready(function(){
+			if (jQuery(this).width() > 1025) {
+				window.scrollReveal = new scrollReveal();
+		   }
+		});
+		</script>
+		
+	
+<!-- File compression. Needs to be called last on this file -->	
+		
+<!-- Responsive Bottom Mobile Bar -->
+	<!-- Call bottom bar for mobile devices if layout is responsive -->	
+
+
+
+<!-- Call bottom bar for all devices if user has chosen to see desktop version -->	
+
+	
+	
+<!-- Closing call for mobile sidebar body wrap defined in includes top file -->
+<div style="clear:both"></div>
+</div>
+</div>
+	
+</div>
+<!-- End Body Padding -->
+
+
+<script>
+function s5_search_open() {
+	document.getElementById('s5_search_overlay').className = "s5_search_open";
+	if (document.getElementById("s5_drop_down_container")) { 
+		document.getElementById("s5_drop_down_container").style.display = "none"; 
+	}
+}
+function s5_search_close() {
+	document.getElementById('s5_search_overlay').className = "s5_search_close";
+	if (document.getElementById("s5_drop_down_container")) { 
+		document.getElementById("s5_drop_down_container").style.display = "block"; 
+	}
+}
+</script>
+
+<script>
+function s5_check_boxes_height() {
+	var s5_check_boxes_height_holder = 1;
+	var s5_check_boxes_height1 = document.getElementById("s5_body").querySelectorAll('DIV');
+	for (var s5_check_boxes_height1_y=0; s5_check_boxes_height1_y<s5_check_boxes_height1.length; s5_check_boxes_height1_y++) {
+		if (s5_check_boxes_height1[s5_check_boxes_height1_y].className.indexOf("mage_box_item_inner2") >= 0) {
+			s5_check_boxes_height1[s5_check_boxes_height1_y].style.minHeight = "1px";
+			if (s5_check_boxes_height1[s5_check_boxes_height1_y].offsetHeight > s5_check_boxes_height_holder) {
+				s5_check_boxes_height_holder = s5_check_boxes_height1[s5_check_boxes_height1_y].offsetHeight;
+			}
+		}
+	}
+	if (document.body.offsetWidth >= 550) {
+	var s5_check_boxes_height2 = document.getElementById("s5_body").querySelectorAll('DIV');
+	for (var s5_check_boxes_height2_y=0; s5_check_boxes_height2_y<s5_check_boxes_height2.length; s5_check_boxes_height2_y++) {
+		if (s5_check_boxes_height2[s5_check_boxes_height2_y].className.indexOf("mage_box_item_inner2") >= 0) {
+			s5_check_boxes_height2[s5_check_boxes_height2_y].style.minHeight = s5_check_boxes_height_holder + "px";
+		}
+	}
+}
+}
+jQuery(document).ready( function() { s5_check_boxes_height(); });
+jQuery(window).resize(s5_check_boxes_height);
+function s5_check_employee_height() {
+	var s5_check_employee_height_holder = 1;
+	var s5_check_employee_height1 = document.getElementById("s5_body").querySelectorAll('DIV');
+	for (var s5_check_employee_height1_y=0; s5_check_employee_height1_y<s5_check_employee_height1.length; s5_check_employee_height1_y++) {
+		if (s5_check_employee_height1[s5_check_employee_height1_y].className.indexOf("mployee") >= 0) {
+			s5_check_employee_height1[s5_check_employee_height1_y].style.minHeight = "1px";
+			if (s5_check_employee_height1[s5_check_employee_height1_y].offsetHeight > s5_check_employee_height_holder) {
+				s5_check_employee_height_holder = s5_check_employee_height1[s5_check_employee_height1_y].offsetHeight;
+			}
+		}
+	}
+	if (document.body.offsetWidth >= 550) {
+	var s5_check_employee_height2 = document.getElementById("s5_body").querySelectorAll('DIV');
+	for (var s5_check_employee_height2_y=0; s5_check_employee_height2_y<s5_check_employee_height2.length; s5_check_employee_height2_y++) {
+		if (s5_check_employee_height2[s5_check_employee_height2_y].className.indexOf("mployee") >= 0) {
+			s5_check_employee_height2[s5_check_employee_height2_y].style.minHeight = s5_check_employee_height_holder + "px";
+		}
+	}
+}
+}
+jQuery(document).ready( function() { s5_check_employee_height(); });
+jQuery(window).resize(s5_check_employee_height);
+</script>
+
+</div>
+</body>
+</html>
